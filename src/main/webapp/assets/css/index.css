@@ -1,0 +1,56 @@
+body {
+	background-image: url(../img/login-bg.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+.center_logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 330px;
+	height: 330px;
+}
+
+.logo {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	animation: circlelogo 2s linear infinite;
+	transform-origin: center center;
+}
+
+.redirect {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.redirect a {
+	width: 150px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--white-color);
+	background-color: var(--back-ground-color);
+}
+
+@keyframes circlelogo {
+	0% {
+		transform: rotate(-20deg);
+	}
+
+	50% {
+		transform: rotate(20deg);
+	}
+
+	100% {
+		transform: rotate(-20deg);
+	}
+}

@@ -1,0 +1,26 @@
+.side_bar {
+    background-color: var(--white-color);
+}
+.side_bar .side_bar__list {
+    width: 90%;
+}
+.side_bar__item.active {
+    background-color: #DEB5D7;
+}
+.side_bar__item.active:hover {
+    background-color: #DEB5D7;
+    opacity: 1;
+}
+.side_bar__item:hover {
+    background-color: var(--white-color);
+}
+.container {
+    background-color: #f2f2f2;;
+}
+.search_form {
+    background-color: var(--white-color);
+}
+
+.search_input {
+    background: transparent;
+}

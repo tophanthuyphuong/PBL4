@@ -1,0 +1,199 @@
+/* Detail email */
+.mail_title {
+	padding: 10px 50px;
+	font-size: 18px;
+	font-style: italic;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #fff2f4;
+
+}
+
+.mail_title span {
+	font-weight: 500;
+	font-size: 20px;
+	font-style: normal;
+}
+
+.mail_item {
+	margin-top: 20px;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid var(--table_line);
+	border-radius: 15px;
+	background-color: #fff2f4;
+}
+
+.mail_item i {
+	color: var(--text-color);
+	margin-left: 10px;
+}
+
+.mail_info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mail_info_avt {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.mail_info_tofrom {
+	overflow: hidden;
+	font-size: var(--tiny-font-size);
+}
+
+.mail_user_name {
+	font-size: var(--normal-font-size);
+	font-weight: 500;
+}
+
+.button_list_users {
+	border: none;
+	background-color: transparent;
+	padding: 0 5px;
+	border-radius: 5px;
+	margin-left: 3px;
+}
+
+.button_list_users:focus,
+.button_list_users:active {
+	outline: none;
+	background-color: #C6ACDA;
+}
+
+.button_list_users i {
+	margin: 0;
+}
+
+.list_users {
+	display: none;
+	padding: 10px 5px;
+	box-shadow: #6499E9 0px 1px 3px;
+	border-radius: 8px;
+	z-index: 2;
+	position: absolute;
+	background-color: var(--white-color);
+}
+
+.list_users .row {
+	margin-top: 3px;
+}
+
+.list_users label {
+	text-align: right;
+}
+
+.mail_info_time {
+	font-size: var(--tiny-font-size);
+}
+
+.mail_content {
+	padding: 0 60px;
+	margin-top: 10px;
+	font-size: var(--normal-font-size);
+	max-height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.mail_attachment {
+	display: flex;
+	align-items: center;
+	margin-left: 60px;
+	background-color: var(--back-ground-color);
+	width: fit-content;
+	padding: 10px 20px;
+	border: 1px solid #f3f3f3;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.mail_attachment:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.mail_attachment a {
+	width: 100%;
+	padding: 10px;
+}
+
+.mail_attachment a:hover {
+	text-decoration: none;
+}
+
+.mail_fileName {
+	padding: 0 20px;
+	color: black;
+}
+
+.failure-error.row {
+	border-radius: 10px;
+	border: 1px solid var(--table_line);
+	margin: 20px 60px;
+	padding: 20px;
+}
+
+.failure-error-img {
+	width: 100px;
+	height: fit-content;
+	margin-right: 30px;
+}
+
+.failure-error-container {
+	max-width: 84%;
+}
+
+.error-name,
+.failure-mess {
+	color: crimson;
+}
+
+.error-name {
+	font-weight: 600;
+}
+
+.mail_reply {
+	display: flex;
+	margin-top: 20px;
+	padding-left: 50px;
+}
+
+.mail_reply_item {
+	border: 1px solid #dddddd;
+	border-radius: 30px;
+	margin-right: 20px;
+	padding: 8px 20px 8px 10px;
+	background-color: transparent;
+	color: var(--text-color);
+}
+
+.mail_reply_item:hover {
+	opacity: 0.5;
+	background-color: #C6ACDA;
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+.mail_reply_item:active {
+	opacity: 1;
+	background-color: #C6ACDA;
+}
+
+.mail_reply_item:focus {
+	outline: none;
+}
+
+.mail_reply_item i {
+	margin-right: 5px;
+}
+.alert.alert-success {
+    position: fixed;
+    bottom: 10px;
+    right: 90px;
+    border-radius: 10px;
+}

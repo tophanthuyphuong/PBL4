@@ -1,0 +1,97 @@
+
+/* New Email */
+.new_email_container {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    font-size: var(--normal-font-size);
+}
+
+.new_email_header {
+    margin-bottom: 0;
+    padding: 10px 30px;
+    font-size: 1.8rem;
+}
+
+.new_email_content {
+    background-color: var(--white-color);
+    padding: 10px 40px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.new_email_content .label {
+    padding: 0;
+}
+
+.new_email_row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.new_email_row input, 
+textarea.new_email_row {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.new_email_row input {
+	margin-left: 5px;
+}
+
+.red {
+	color: red!important;
+}
+
+.new_email_row input:focus, 
+textarea.new_email_row:focus {
+    outline: var(--border-color);
+    box-shadow: rgba(3, 101, 214, 0.313) 0px 0px 0px 3px;
+}
+
+textarea.new_email_row {
+    height: 150px;
+}
+
+#fileToUpload {
+    border: none;
+}
+
+#submit_btn {
+    width: 200px;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: var(--back-ground-color);
+    border-radius: 20px;
+}
+
+#submit_btn:focus, #submit_btn:hover {
+    opacity: 0.8;
+}
+
+#submit_btn:active {
+    background: #DEB5D7;
+}
+
+#submit_btn:focus {
+    box-shadow: none;
+}
+
+/* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}  */

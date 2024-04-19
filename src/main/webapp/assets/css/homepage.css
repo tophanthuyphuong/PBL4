@@ -1,0 +1,129 @@
+/*  content */
+
+/* content header */
+.content {
+    min-height: calc(100% - 120px);
+}
+
+.content_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 1px solid var(--table_line);
+}
+
+.content_header-left,
+.content_header-right {
+    display: flex;
+    align-items: center;
+}
+
+.content_header-left .content_header-item {
+    margin-right: 15px;
+}
+
+.content_header-right .content_header-item{
+    margin-left: 10px
+}
+
+.content_header-right span {
+    color: var(--text-color);
+    font-style: italic;
+}
+
+.content_header-item,
+#reload i::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+a.content_header-item {
+    width: fit-content;
+    height: fit-content;
+}
+
+a.content_header-item:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+/* main content */
+.main_content{
+    background-color: var(--white-color);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: var(--normal-font-size);
+}
+
+.table_head, 
+.email_item {
+    display: grid;
+    border-bottom: 1px solid var(--table_line);
+    padding: 0 40px;
+}
+
+.table_head {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: 500;
+    grid-template-columns: 5% 15% 5% 20% 45% 10%;
+    background-image: linear-gradient(-180deg, #ffdde1, #ee9ca7);
+    background-image: linear-gradient(-180deg, #EECDA3, #EF629F);
+}
+
+.table_head i {
+    margin-right: 5px;
+}
+
+.no-mail {
+	text-align: center;
+    padding-top: 40px;
+    background: var(--back-ground-color_second);
+    font-style: italic;
+}
+
+.email_item {
+    height: 50px;
+    align-items: center;
+    color: var(--text-color);
+    grid-template-columns: 5% 20% 20% 45% 10%;
+}
+
+.email_item.active {
+    background-color: #E7DEED;
+    font-weight: 600;
+}
+
+.email_item:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.email_item_name, 
+.email_item_title,
+.email_item_content,
+.email_item_count {
+	text-wrap: nowrap;
+    overflow: hidden;
+    width: 90%;
+	height: 25px;
+}
+
+.email_item_count{
+	color: #6b6b6b;
+	font-size: var(--small-font-size);
+}
+
+.email_item_time {
+    text-align: right;
+}
+[class^="ri-"] {
+	font-size: 18px;
+}
